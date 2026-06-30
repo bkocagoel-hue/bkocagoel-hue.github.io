@@ -1055,10 +1055,12 @@ section[id] { scroll-margin-top: 76px; }
     .nav-menu.open { display: flex; }
 
     .nav-link {
-        padding: 12px 16px;
-        font-size: 1rem;
+        padding: 16px 18px;
+        font-size: 1.05rem;
         border-radius: 10px;
     }
+
+    .nav-menu { gap: 8px; }
 
     .nav-cta {
         margin-left: 0;
@@ -1076,11 +1078,16 @@ section[id] { scroll-margin-top: 76px; }
     .hero-tagline { font-size: 0.82rem; }
     .hero-scroll { display: none; }
 
+    /* Section headers */
+    .section-header { margin-bottom: 40px; }
+    .section-sub { margin-top: 12px; line-height: 1.65; }
+
     /* About */
-    .about-stats { grid-template-columns: repeat(2, 1fr); }
+    .about-stats { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .about-text p { line-height: 1.85; margin-bottom: 22px; }
 
     /* Focus */
-    .focus-grid { grid-template-columns: 1fr; }
+    .focus-grid { grid-template-columns: 1fr; gap: 18px; }
 
     /* Skills */
     .skills-grid {
@@ -1091,9 +1098,12 @@ section[id] { scroll-margin-top: 76px; }
     /* Timeline */
     .timeline { padding-left: 30px; }
     .tl-dot   { left: -26px; }
+    .tl-item:not(:last-child) { margin-bottom: 44px; }
+    .tl-desc { line-height: 1.8; }
 
     /* Values */
-    .values-grid { grid-template-columns: 1fr; }
+    .values-grid { grid-template-columns: 1fr; gap: 16px; }
+    .value-card { padding: 28px 24px; }
 
     /* Contact */
     .contact-links { flex-direction: column; align-items: center; }
