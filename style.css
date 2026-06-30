@@ -523,11 +523,17 @@ section[id] { scroll-margin-top: 76px; }
 .focus-card:hover::before { opacity: 1; }
 
 .focus-sym {
-    font-size: 1.6rem;
-    color: var(--accent);
     display: block;
+    width: 22px;
+    height: 22px;
+    color: var(--accent);
     margin-bottom: 18px;
     line-height: 1;
+}
+.focus-sym svg {
+    width: 22px;
+    height: 22px;
+    display: block;
 }
 
 .focus-card h3 {
@@ -904,6 +910,60 @@ section[id] { scroll-margin-top: 76px; }
 .contact-item:hover .ci-arrow {
     color: var(--accent);
     transform: translate(2px, -2px);
+}
+
+/* ============================================================
+   RESEARCH INTERESTS
+   ============================================================ */
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.research-tag {
+    display: inline-block;
+    padding: 11px 22px;
+    background: var(--accent-muted);
+    border: 1px solid var(--accent-ring);
+    border-radius: 100px;
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: var(--accent-lt);
+    transition: background var(--t), border-color var(--t), transform var(--t);
+}
+.research-tag:hover {
+    background: rgba(201, 160, 101, 0.18);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* ============================================================
+   OUTLOOK / ZUKUNFT
+   ============================================================ */
+.outlook-block {
+    max-width: 740px;
+}
+
+.outlook-title {
+    font-size: clamp(1.9rem, 3vw, 2.7rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 14px 0 22px;
+}
+
+.outlook-text {
+    font-size: 1.08rem;
+    color: var(--text-mid);
+    line-height: 1.82;
+    margin-bottom: 32px;
+    max-width: 680px;
+}
+
+.outlook-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 /* ============================================================
