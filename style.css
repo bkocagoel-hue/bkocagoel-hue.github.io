@@ -79,7 +79,7 @@ strong { color: var(--text); font-weight: 600; }
 ol, ul { list-style: none; }
 
 /* ── Scroll margin for fixed nav ─────────────────────────── */
-section[id] { scroll-margin-top: 76px; }
+section[id], [id].skills-group { scroll-margin-top: 90px; }
 
 /* ── Layout helpers ──────────────────────────────────────── */
 .container {
