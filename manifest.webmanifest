@@ -1,0 +1,23 @@
+{
+  "name": "Burak Kocagöl",
+  "short_name": "BK",
+  "description": "Strategischer Einkäufer bei E.ON – Procurement, Controlling, Digitalisierung",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#080c18",
+  "background_color": "#080c18",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

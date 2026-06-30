@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <rect width="180" height="180" fill="#080c18"/>
+  <rect x="2" y="2" width="176" height="176" fill="none" stroke="#c9a065" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="90" y="116" font-family="Georgia, 'Palatino Linotype', Palatino, serif"
+        font-size="76" font-weight="700" letter-spacing="-3"
+        fill="#c9a065" text-anchor="middle">BK</text>
+  <circle cx="90" cy="140" r="4" fill="#c9a065" opacity="0.6"/>
+</svg>

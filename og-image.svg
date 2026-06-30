@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c18"/>
+      <stop offset="100%" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ddb87d"/>
+      <stop offset="100%" stop-color="#c9a065"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c9a065"/>
+      <stop offset="100%" stop-color="#c9a065" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-grad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03" stroke="#ddb87d" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="120" y1="0" x2="120" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="480" y1="0" x2="480" y2="630"/>
+    <line x1="660" y1="0" x2="660" y2="630"/>
+    <line x1="840" y1="0" x2="840" y2="630"/>
+    <line x1="1020" y1="0" x2="1020" y2="630"/>
+  </g>
+
+  <!-- Right-side decorative large "BK" monogram (very faint) -->
+  <text x="900" y="540" font-family="Georgia, 'Palatino Linotype', Palatino, serif"
+        font-size="480" font-weight="700" letter-spacing="-20"
+        fill="#c9a065" fill-opacity="0.04" text-anchor="middle">BK</text>
+
+  <!-- Left gold accent bar -->
+  <rect x="0" y="80" width="5" height="470" fill="url(#gold-grad)" rx="2"/>
+
+  <!-- Top-left BK monogram badge -->
+  <rect x="60" y="56" width="64" height="64" rx="14" fill="#111b2e"/>
+  <rect x="61.5" y="57.5" width="61" height="61" rx="12.5" fill="none" stroke="#c9a065" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="92" y="100" font-family="Georgia, Palatino, serif" font-size="28" font-weight="700"
+        fill="#c9a065" text-anchor="middle" letter-spacing="-1">BK</text>
+
+  <!-- Main content block -->
+  <!-- Eyebrow -->
+  <text x="60" y="212" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" font-weight="600" letter-spacing="4"
+        fill="#c9a065" fill-opacity="0.9" text-transform="uppercase">PORTFOLIO</text>
+
+  <!-- Name -->
+  <text x="60" y="300" font-family="Georgia, 'Palatino Linotype', Palatino, serif"
+        font-size="82" font-weight="700" letter-spacing="-2" fill="#dde5f0">Burak</text>
+  <text x="60" y="390" font-family="Georgia, 'Palatino Linotype', Palatino, serif"
+        font-size="82" font-weight="700" letter-spacing="-2" fill="#c9a065"
+        font-style="italic">Kocagöl</text>
+
+  <!-- Divider -->
+  <rect x="60" y="415" width="420" height="1.5" fill="url(#line-grad)" opacity="0.6"/>
+
+  <!-- Subtitle -->
+  <text x="60" y="452" font-family="Arial, Helvetica, sans-serif"
+        font-size="20" fill="#8294ad">Strategischer Einkäufer · E.ON SE · Business Administration</text>
+
+  <!-- Tag pills -->
+  <!-- Procurement -->
+  <rect x="60" y="476" width="140" height="34" rx="17" fill="#c9a065" fill-opacity="0.12"
+        stroke="#c9a065" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="130" y="498" font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="600" fill="#ddb87d" text-anchor="middle">Procurement</text>
+
+  <!-- Controlling -->
+  <rect x="212" y="476" width="130" height="34" rx="17" fill="#c9a065" fill-opacity="0.12"
+        stroke="#c9a065" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="277" y="498" font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="600" fill="#ddb87d" text-anchor="middle">Controlling</text>
+
+  <!-- Digitalisierung -->
+  <rect x="354" y="476" width="148" height="34" rx="17" fill="#c9a065" fill-opacity="0.12"
+        stroke="#c9a065" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="428" y="498" font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="600" fill="#ddb87d" text-anchor="middle">Digitalisierung</text>
+
+  <!-- Bottom URL bar -->
+  <rect x="0" y="586" width="1200" height="44" fill="#0d1424"/>
+  <rect x="0" y="586" width="1200" height="1" fill="#c9a065" fill-opacity="0.18"/>
+  <text x="60" y="613" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" fill="#c9a065" fill-opacity="0.7">bkocagoel-hue.github.io</text>
+  <text x="1140" y="613" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" fill="#3e5068" text-anchor="end">2025</text>
+</svg>
